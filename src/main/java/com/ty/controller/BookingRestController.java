@@ -36,7 +36,7 @@ public class BookingRestController {
 		
 		 
 		
-		return new ResponseEntity<>(ticket, HttpStatus.FOUND);
+		return new ResponseEntity<>(ticket, HttpStatus.OK);
 		
 	}
 
